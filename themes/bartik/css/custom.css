@@ -116,6 +116,9 @@ footer.site-footer .site-footer__bottom .region {
     margin-bottom: 5px;
 }
 
+.layout-container .site-footer__bottom .region-footer-fifth .content p.mail a {
+    border-bottom: none;
+}
 
 body.path-frontpage main#content {
     width: 60%;
