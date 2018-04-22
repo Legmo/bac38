@@ -14,7 +14,7 @@
                     if ($(contentH2).length) {
                         $(contentH2).each(function (index, element) {
                             //console.log('Индекс элемента h2: ' + index + '; id элемента = ' + $(element).text());
-                            $(element).prepend('<span class="anchor" id="anchor-'+index+'">&nbsp;</span>');
+                            $(element).prepend('<span class="anchor" style="position: absolute; top: -20px; left: 0; width: 0; height: 1px" id="anchor-'+index+'">&nbsp;</span>');
                             $(menuItem).append('<li class="item"><a href="#anchor-'+index+'">'+$(element).text().trim()+'</a></li>');
                         });
                         //$(menuItem).filter('.item_gallery').show();
