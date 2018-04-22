@@ -19,7 +19,7 @@
                             // element - содержит DOM-ссылку на текущий элемент
 
                             console.log('Индекс элемента h2: ' + index + '; id элемента = ' + $(element).text());
-                            $(element).prepend('<a class="anchor" href="anchor-'+index+'">&nbsp;</a>');
+                            $(element).prepend('<span class="anchor" id="anchor-'+index+'">&nbsp;</span>');
                             $(menuItem).append('<li class="item"><a href="#anchor-'+index+'">'+$(element).text()+'</a></li>');
                         });
                         //$(menuItem).filter('.item_gallery').show();
