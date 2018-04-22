@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a2c53d2-fb70-476e-8c52-2a2db1f7bf6a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/css/custom.css" afterPath="$PROJECT_DIR$/themes/bartik/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/js/scripts.js" afterPath="$PROJECT_DIR$/themes/bartik/js/scripts.js" />
     </list>
     <ignored path="legmo-bac38.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +49,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/bartik/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40405905">
-              <caret line="143" column="6" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.6863469">
+              <caret line="164" column="21" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
               <folding>
                 <element signature="e#5#39#0" expanded="false" />
                 <element signature="e#51#83#0" expanded="false" />
@@ -87,7 +85,6 @@
                 <element signature="e#2830#2854#0" expanded="false" />
                 <element signature="e#2920#2944#0" expanded="false" />
                 <element signature="e#3016#3036#0" expanded="false" />
-                <element signature="e#3056#3083#0" expanded="false" />
                 <element signature="e#3598#3657#0" expanded="false" />
                 <element signature="e#3724#3811#0" expanded="false" />
               </folding>
@@ -436,7 +433,6 @@
             <element signature="e#2830#2854#0" expanded="false" />
             <element signature="e#2920#2944#0" expanded="false" />
             <element signature="e#3016#3036#0" expanded="false" />
-            <element signature="e#3056#3083#0" expanded="false" />
             <element signature="e#3598#3657#0" expanded="false" />
             <element signature="e#3724#3811#0" expanded="false" />
           </folding>
@@ -579,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/bartik/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40405905">
-          <caret line="143" column="6" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.6863469">
+          <caret line="164" column="21" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
           <folding>
             <element signature="e#5#39#0" expanded="false" />
             <element signature="e#51#83#0" expanded="false" />
@@ -615,7 +611,6 @@
             <element signature="e#2830#2854#0" expanded="false" />
             <element signature="e#2920#2944#0" expanded="false" />
             <element signature="e#3016#3036#0" expanded="false" />
-            <element signature="e#3056#3083#0" expanded="false" />
             <element signature="e#3598#3657#0" expanded="false" />
             <element signature="e#3724#3811#0" expanded="false" />
           </folding>
