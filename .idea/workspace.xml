@@ -2,89 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a2c53d2-fb70-476e-8c52-2a2db1f7bf6a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/images/add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/images/tabs-border.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/screenshot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/bartik.breakpoints.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/bartik.info.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/bartik.libraries.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/bartik.theme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/color/color.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/color/preview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/color/preview.es6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/color/preview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/color/preview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/config/schema/bartik.schema.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/base/elements.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/colors.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/block.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/book.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/breadcrumb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/captions.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/comments.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/contextual.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/demo-block.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/dropbutton.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/featured-bottom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/featured-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/feed-icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/field.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/forum.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/help.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/highlighted.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/image-button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/item-list.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/list-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/list.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/main-content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/messages.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/node-preview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/node.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/page-title.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/pager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/panel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/password-suggestions.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/primary-menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/search-form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/search-results.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/secondary-menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/shortcut.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/sidebar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/site-branding.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/site-footer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/skip-link.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/tablesort-indicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/text-formatted.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/toolbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/ui-dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/ui.widget.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/vertical-tabs.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/components/views.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/maintenance-page.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/css/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/images/required.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/js/scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/block--search-form-block.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/block--system-branding-block.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/block--system-menu-block.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/block.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/comment.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/field--node--field-tags.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/form--search-block-form.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/maintenance-page.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/node.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/page-title.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/page.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/region--header.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/bartik/templates/status-messages.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/bartik.info.yml" afterPath="$PROJECT_DIR$/themes/bartik/bartik.info.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/js/scripts.js" afterPath="$PROJECT_DIR$/themes/bartik/js/scripts.js" />
     </list>
     <ignored path="legmo-bac38.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/bartik/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32922536">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bartik.info.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/bartik/bartik.info.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47887325">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -135,6 +65,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/themes/bartik/js/scripts.js" />
+        <option value="$PROJECT_DIR$/themes/bartik/bartik.info.yml" />
       </list>
     </option>
   </component>
@@ -357,8 +288,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/bartik/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32922536">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bartik/bartik.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47887325">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding />
         </state>
       </provider>

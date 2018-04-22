@@ -11,8 +11,16 @@
                     //$(menuItem).hide();
 
                     if ($(contentH2).length) {
-                        $(menuItem).filter('.item_gallery').show();
-                        $('article .field--name-field-tour-photo-gallery').prepend('<a id="anchor_gallery" class="anchor"></a>');
+                        $(contentH2).each(function (index, element) {
+                            // index (число) - текущий индекс итерации (цикла)
+                            // данное значение является числом
+                            // начинается отсчёт с 0 и заканчивается количеству элементов в текущем наборе минус 1
+                            // element - содержит DOM-ссылку на текущий элемент
+
+                            console.log('Индекс элемента div: ' + index + '; id элемента = ' + $(element).text());
+                        });
+                        //$(menuItem).filter('.item_gallery').show();
+                        //$('article .field--name-field-tour-photo-gallery').prepend('<a id="anchor_gallery" class="anchor"></a>');
                     }
                 });
             }
