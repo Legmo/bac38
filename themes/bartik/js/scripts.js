@@ -13,14 +13,9 @@
                     console.log('Start');
                     if ($(contentH2).length) {
                         $(contentH2).each(function (index, element) {
-                            // index (число) - текущий индекс итерации (цикла)
-                            // данное значение является числом
-                            // начинается отсчёт с 0 и заканчивается количеству элементов в текущем наборе минус 1
-                            // element - содержит DOM-ссылку на текущий элемент
-
-                            console.log('Индекс элемента h2: ' + index + '; id элемента = ' + $(element).text());
+                            //console.log('Индекс элемента h2: ' + index + '; id элемента = ' + $(element).text());
                             $(element).prepend('<span class="anchor" id="anchor-'+index+'">&nbsp;</span>');
-                            $(menuItem).append('<li class="item"><a href="#anchor-'+index+'">'+$(element).text()+'</a></li>');
+                            $(menuItem).append('<li class="item"><a href="#anchor-'+index+'">'+$(element).text().trim()+'</a></li>');
                         });
                         //$(menuItem).filter('.item_gallery').show();
                         //$('article .field--name-field-tour-photo-gallery').prepend('<a id="anchor_gallery" class="anchor"></a>');

@@ -136,3 +136,39 @@ body.path-frontpage #sidebar-second #block-metody .content ul li {
 body.path-frontpage #sidebar-second #block-metody .content ul li span {
     color: grey;
 }
+
+article.node-2 h2 {
+    position: relative;
+}
+article.node-2 h2 span {
+    position: absolute;
+    height: 1px;
+    width: 0;
+    top: -20px;
+    left: 0;
+}
+
+#sidebar-second,
+#sidebar-second aside,
+#sidebar-second div {
+    height: 100%;
+}
+
+#sidebar-second aside div #block-bokovoemenunastranicesospiskomuslug {
+    position: sticky;
+    top: 20px;
+    height: auto;
+}
+#block-bokovoemenunastranicesospiskomuslug .content ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+#block-bokovoemenunastranicesospiskomuslug .content ul li a {
+    font-size: 16px;
+    transition: all 0.4s ease-out;
+}
+#block-bokovoemenunastranicesospiskomuslug .content ul li a:hover {
+    text-decoration: none;
+    border-bottom: 0;
+    transition: all 0.4s ease-out;
+}
