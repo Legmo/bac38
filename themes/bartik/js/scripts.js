@@ -2,13 +2,14 @@
     'use strict';
     Drupal.behaviors.global = {
         attach: function (context,settings) {
-            console.log('HI!');
+
             //Service page - right menu
             if ($('body ul.menu-right').length) {
                 $('body').once('rightMenu').each(function() {
                     //var menuItem = $('body ul.menu-right li');
-                    var contentH2 = $('body ul.menu-right li');
+                    var contentH2 = $('body article .node__content h2');
                     //$(menuItem).hide();
+
                     console.log('Start');
                     if ($(contentH2).length) {
                         $(contentH2).each(function (index, element) {
@@ -17,7 +18,7 @@
                             // начинается отсчёт с 0 и заканчивается количеству элементов в текущем наборе минус 1
                             // element - содержит DOM-ссылку на текущий элемент
 
-                            console.log('Индекс элемента div: ' + index + '; id элемента = ' + $(element).text());
+                            console.log('Индекс элемента h2: ' + index + '; id элемента = ' + $(element).text());
                         });
                         //$(menuItem).filter('.item_gallery').show();
                         //$('article .field--name-field-tour-photo-gallery').prepend('<a id="anchor_gallery" class="anchor"></a>');
