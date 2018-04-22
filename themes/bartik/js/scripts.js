@@ -19,7 +19,8 @@
                             // element - содержит DOM-ссылку на текущий элемент
 
                             console.log('Индекс элемента h2: ' + index + '; id элемента = ' + $(element).text());
-                            $(menuItem).append('<li class="item"><a href="#"></a>'+$(element).text()+'</a></li>');
+                            $(element).prepend('<a href="anchor-'+index+'">&nbsp;</a>');
+                            $(menuItem).append('<li class="item"><a href="#"anchor-'+index+'">'+$(element).text()+'</a></li>');
                         });
                         //$(menuItem).filter('.item_gallery').show();
                         //$('article .field--name-field-tour-photo-gallery').prepend('<a id="anchor_gallery" class="anchor"></a>');
