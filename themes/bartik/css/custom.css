@@ -174,3 +174,18 @@ article.node-2 h2 span {
     border-bottom: 0;
     transition: all 0.4s ease-out;
 }
+
+article.node-1 {
+    overflow: hidden;
+
+    @include media-breakpoint-down(xs) {
+        max-width: 90vw;
+    }
+    @include media-breakpoint-only (sm) {
+        max-width: 90vw;
+    }
+    @include media-breakpoint-only (md) {}
+    @include media-breakpoint-only (lg) {}
+    @include media-breakpoint-only (xl) {}
+
+}
