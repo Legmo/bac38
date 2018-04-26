@@ -139,6 +139,7 @@ body.path-frontpage #sidebar-second #block-metody .content ul li span {
 
 article.node-2 h2 {
     position: relative;
+    padding-top: 25px;
 }
 article.node-2 h2 span {
     /*See at JS*/
