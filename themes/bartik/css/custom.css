@@ -177,7 +177,9 @@ article.node-2 h2 span {
 
 article.node-1 {
     overflow: hidden;
-
+    @media (max-width: 550px) {
+        max-width: 90vw;
+    }
     @include media-breakpoint-down(xs) {
         max-width: 90vw;
     }
