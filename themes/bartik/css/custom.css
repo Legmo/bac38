@@ -33,13 +33,6 @@ body #page {
     }
 }
 
-/*Sidebars*/
-#sidebar-second,
-#sidebar-second aside,
-#sidebar-second div {
-    height: 100%;
-}
-
 /*Header*/
 #header .region-header {
     display: flex;
@@ -273,6 +266,11 @@ body.page-node-2 main#content {
     width: 100%;
     margin: 0;
 }
+body.page-node-2 #sidebar-second,
+body.page-node-2 #sidebar-second aside,
+body.page-node-2 #sidebar-second div {
+    height: 100%;
+}
 body.page-node-2 #sidebar-second {
     width: 100%;
     margin: 0;
@@ -327,6 +325,13 @@ body.page-node-2 #main-wrapper #sidebar-second .block .content ul.menu-right li 
     text-decoration: none;
     border-bottom: 0;
     transition: all 0.4s ease-out;
+}
+@media screen and (max-width: 990px) {
+    #sidebar-second,
+    #sidebar-second aside,
+    #sidebar-second div {
+        height: auto;
+    }
 }
 @media screen and (min-width: 991px) and (max-width: 1180px) {
     body.page-node-2 main#content {
