@@ -48,6 +48,10 @@ body.user-logged-in
 body.user-logged-in #header .region-secondary-menu {
     display: block;
 }
+
+body.user-logged-in #header .region-secondary-menu .ontent ul.menu {
+    padding-right: 30px;
+}
 body.path-frontpage #header .region-header a.logo-block {
     cursor: default;
 }
@@ -75,6 +79,7 @@ body.path-frontpage #header .region-header a.logo-block {
     color: white;
     font-weight: bold;
     padding-right: 3px;
+    padding-top: 5px;
     line-height: 1;
 }
 #header .region-header #block-contact-header p.phone span {
