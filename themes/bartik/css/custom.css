@@ -290,12 +290,12 @@ body.page-node-2 #sidebar-second.mobile .section {
 body.page-node-2 #sidebar-second.mobile .section .block {
     padding: 0;
 }
-body.page-node-2 .layout-container {
+body.page-node-2 #main-wrapper.layout-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-body.page-node-2 .layout-container .clearfix::after {
+body.page-node-2 #main-wrapper.layout-container .clearfix::after {
     display: none;
 }
 body.page-node-2 #main-wrapper #block-bartik-content h2 {
