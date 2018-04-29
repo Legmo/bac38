@@ -5,6 +5,7 @@ body {
 body #page {
     background-color: white;
 }
+body.user-logged-in
 
 /*Adaptive styles - basic*/
 @media screen and (max-width: 575px) {
@@ -40,6 +41,12 @@ body #page {
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
+}
+#header .region-secondary-menu {
+    display: none;
+}
+body.user-logged-in #header .region-secondary-menu {
+    display: block;
 }
 body.path-frontpage #header .region-header a.logo-block {
     cursor: default;
