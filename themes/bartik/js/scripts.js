@@ -24,7 +24,7 @@
             }
 
             //Service page - right menu moving (for tablet & mobile)
-            if (($('#sidebar-second ul.menu-right').length) && ($(window).width() < 591)) {
+            if (($('#sidebar-second ul.menu-right').length) && ($(window).width() < 991)) {
                 console.log('Yes!');
 
                 //$(buttonWrap).once('Wrapper2').wrap('<div class="bottom-block">');

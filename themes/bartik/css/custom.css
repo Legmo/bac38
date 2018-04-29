@@ -308,11 +308,6 @@ body.page-node-2 #main-wrapper #block-bartik-content h2 span {
     top: -20px;
     left: 0;*/
 }
-body.page-node-2 #main-wrapper #sidebar-second:not(".mobile") .block#block-bokovoemenunastranicesospiskomuslug {
-    position: sticky;
-    top: 20px;
-    height: auto;
-}
 body.page-node-2 #main-wrapper #sidebar-second .block .content ul.menu-right li {
     list-style: none;
     margin-bottom: 15px;
@@ -327,9 +322,9 @@ body.page-node-2 #main-wrapper #sidebar-second .block .content ul.menu-right li 
     transition: all 0.4s ease-out;
 }
 @media screen and (max-width: 990px) {
-    #sidebar-second,
-    #sidebar-second aside,
-    #sidebar-second div {
+    body.page-node-2 #sidebar-second,
+    body.page-node-2 #sidebar-second aside,
+    body.page-node-2 #sidebar-second div {
         height: auto;
     }
 }
@@ -340,6 +335,11 @@ body.page-node-2 #main-wrapper #sidebar-second .block .content ul.menu-right li 
     body.page-node-2 #sidebar-second {
         width: 40%;
     }
+    body.page-node-2 #main-wrapper #sidebar-second .block#block-bokovoemenunastranicesospiskomuslug {
+        position: sticky;
+        top: 20px;
+        height: auto;
+    }
 }
 @media screen and (min-width: 1181px) {
     body.page-node-2 main#content {
@@ -347,6 +347,11 @@ body.page-node-2 #main-wrapper #sidebar-second .block .content ul.menu-right li 
     }
     body.page-node-2 #sidebar-second {
         width: 25%;
+    }
+    body.page-node-2 #main-wrapper #sidebar-second .block#block-bokovoemenunastranicesospiskomuslug {
+        position: sticky;
+        top: 20px;
+        height: auto;
     }
 }
 
