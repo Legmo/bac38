@@ -49,7 +49,7 @@ body.user-logged-in #header .region-secondary-menu {
     display: block;
 }
 
-body.user-logged-in #header .region-secondary-menu .ontent ul.menu {
+body.user-logged-in #header .region-secondary-menu .content ul.menu {
     padding-right: 30px;
 }
 body.path-frontpage #header .region-header a.logo-block {
