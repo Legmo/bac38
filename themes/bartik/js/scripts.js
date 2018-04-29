@@ -3,14 +3,13 @@
     Drupal.behaviors.global = {
         attach: function (context,settings) {
 
-            //Service page - right menu
-            if ($('body ul.menu-right').length) {
+            //Service page - right menu genertion
+            if ($('#sidebar-second ul.menu-right').length) {
                 $('body').once('rightMenu').each(function() {
-                    var menuItem = $('body ul.menu-right');
+                    var menuItem = $('#sidebar-second ul.menu-right');
                     var contentH2 = $('body article .node__content h2');
                     //$(menuItem).hide();
 
-                    console.log('Start');
                     if ($(contentH2).length) {
                         $(contentH2).each(function (index, element) {
                             //console.log('Индекс элемента h2: ' + index + '; id элемента = ' + $(element).text());
@@ -20,7 +19,25 @@
                         //$(menuItem).filter('.item_gallery').show();
                         //$('article .field--name-field-tour-photo-gallery').prepend('<a id="anchor_gallery" class="anchor"></a>');
                     }
+                    $('#sidebar-second').addClass('visible');
                 });
             }
+
+            //Service page - right menu moving (for tablet & mobile)
+            if (($('#sidebar-second ul.menu-right').length) && ($(window).width() < 591)) {
+                console.log('Yes!');
+
+                //$(buttonWrap).once('Wrapper2').wrap('<div class="bottom-block">');
+                $('#sidebar-second').detach().addClass('visible mobile').prependTo('#main #block-bartik-content');
+            }
+
+            //Smooth scroll for right menu on Service page
+            $(function(){
+                $("a[href^='#']").click(function(){
+                    var _href = $(this).attr("href");
+                    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+                    return false;
+                });
+            });
         }
     }; }) (jQuery, Drupal);
